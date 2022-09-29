@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/dom.css">
+    <script src="https://kit.fontawesome.com/849f478197.js" crossorigin="anonymous"></script>
+
+    <title>shopping hall</title>
+</head>
+<body>
+    <header>
+        <div id="head">
+        <div class="top">
+            <span class="nav-icon">
+                <i class="fa-solid fa-bars"></i>
+            </span>
+        <p><a>CREATOR'S STORE</a></p>
+       
+    </div>
+    </div>
+    </header>
+    <section>
+        <div class="bod">
+        <div class="grid">
+       
+      
+        <div class="box 3">
+            <img class="img" src="/images/download (2).jpg" alt="">
+            <p class="name">Black shirt</p>
+           <div class="option"><span id="price3">$350</span> <button><i class="fa-regular fa-heart" ></i></button>  <button class="select">Add to cart</button></div>
+        </div>
+        <div class="box 4">
+            <img class="img" src="/images/download (3).jpg" alt="">
+            <p class="name">White shirt</p>
+            <div class="option"><span id="price4">$200</span> <button><i class="fa-regular fa-heart"></i></button> <button class="select">Add to cart</button></div>
+        </div>
+        <div class="box 5">
+            <img class="img" src="/images/download (4).jpg" alt="">
+            <p class="name">Another white shirt</p>
+            <div class="option"> <span id="price5">$300</span> <button><i class="fa-regular fa-heart"></i></button> <button class="select">Add to cart</button></div>
+        </div>
+        <div class="box 6">
+            <img class="img" src="/images/download (5).jpg" alt="">
+            <p class="name">Third white-shirt</p>
+            <div class="option"> <span id="price6">$250</span> <button><i class="fa-regular fa-heart"></i></button> <button class="select">Add to cart</button></div> 
+        </div>
+        </div>
+        <div class="carts">
+            <div class="cart">
+                <span class="nav-icon">
+                <i class="fa-solid fa-cart-shopping"></i>
+                </span>
+            </div>
+            <div class="cart-item">
+              <div class="con 1">
+                <img class="cart-img" src="/images/download (2).jpg" alt="img">
+                <div class="func">
+                   <button class="increment" onclick="increment()">+</button><span id="e">0</span><button class="decrement" onclick = "decrement()">-</button>
+                  
+                    
+                    <button class="remove">remove</button>
+                </div>
+              </div>
+            </div>
+            <div class="cart-item">
+                <div class="con 1">
+                  <img class="cart-img" src="/images/download (2).jpg" alt="img">
+                  <div class="func">
+                     <button class="increment" onclick="increment1()">+</button><span id="f">0</span><button class="decrement" onclick="decrement1()">-</button>
+                   
+                      
+                      <button class="remove">remove</button>
+                  </div>
+                </div>
+              </div>
+              <div class="cart-item">
+                <div class="con 1">
+                  <img class="cart-img" src="/images/download (2).jpg" alt="img">
+                  <div class="func">
+                     <button class="increment" onclick="increment2()">+</button><span id="g">0</span><button class="decrement" onclick="decrement2()">-</button>
+                      
+                      
+                      <button class="remove">remove</button>
+                  </div>
+                </div>
+              </div>
+              <div class="cart-item">
+                <div class="con 1">
+                  <img class="cart-img" src="/images/download (2).jpg" alt="img">
+                  <div class="func">
+                     <button class="increment" onclick="increment3()">+</button><span id="h">0</span><button class="decrement" onclick="decrement3()">-</button>
+                    <div>
+                      <button class="remove">remove</button>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+            <div class="cart-footer">
+                <p class = "cart-text">Your Total =<span id="cart-price"> 0</span></p>
+                <button class="cart-submit">PURCHASE</button>
+            </div>
+        </div>
+        </div>
+       
+    </section>
+    <script src="/dom.js"></script>
+</body>
+</html>
